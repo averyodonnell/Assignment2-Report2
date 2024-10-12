@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pony Poppers!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff69b4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        .images, .form-section, .video-section {
+            margin-top: 20px;
+        }
+        .images img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .video-section iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        .newsletter-form input, .newsletter-form button {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 300px;
+        }
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: static;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Pony Poppers!</h1>
+</header>
+
+<nav>
+    <a href="#what-is-it?">What is it?</a>
+    <a href="#real-results">Real Results</a>
+    <a href="#how-to-use">How to Use it</a>
+    <a href="#sign-up">Sign Up for Discounts</a>
+</nav>
+<section style="text-align: center;">
+<img src="https://m.media-amazon.com/images/I/61jTZARFxBL._SL1240_.jpg" height="300" width="300" style="max-width: 100%; height: auto;">
+</section>
+
+<section id="what-they-are">
+    <h2>What are Pony Poppers?</h2>
+    <p>The Pony Popper is the ultimate tool for achieving a fuller, more voluminous ponytail in seconds. Whether you have thin hair or just want to boost your ponytail’s appearance, the Pony Popper is designed to give your hair that added lift and fullness without needing extensions or extra styling products.
+        Simply insert the Pony Popper into your ponytail, and watch as it instantly adds body and volume to your look. The lightweight, discreet design ensures it stays hidden while enhancing the overall shape of your ponytail, making it perfect for any occasion.
+        For just $14.95, you can enjoy beautiful, fuller ponytails anytime. Order now and transform your hair game with the Pony Popper!</p>
+</section>
+<section id="real-results">
+    <h2>Real Results</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGY7aR4GvMYmwIbj7p9vTXMNNOgsilGgBfA&s" height="200" width="200">
+    <img src="https://ponypopper.com/wp-content/uploads/2021/04/before_after_1.jpg" height="200" width="200">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhRDy8x2kdQUzMtZQougUL2T2noW_AU57VlQ&s" height="200" width="250">
+    <img src="https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202404/img_x500_661487b9045b72-57238620-97687576.webp" height="200" width="200">
+</section>
+
+<section id="how-to-use" class="video-section">
+    <h2>How to Use a Pony Popper</h2>
+    <iframe src="https://www.youtube.com/embed/pnokRq__Dz4?si=q4zojbTE_rGLPHPG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<li>Step 1: Separate your ponytail into two sections</li>
+<li>Step 2: Insert the Pony Popper between the sections</li>
+<li>Step 3: Adjust the ponytail around the Pony Popper for a fuller look</li>
+<li>Step 4: Secure the ponytail and style as desired</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="sign-up" class="form-section">
+    <h2>Sign Up for Our Newsletter</h2>
+    <p>Stay updated with the latest news, tips, and special promotions on Pony Poppers!</p>
+    <form action="/server-page-handling-form-data" method="post">
+        <ul>
+          <li>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Pony Popper"/>
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="pony@popper.com"/>
+          <li><button type="submit">Submit</button></li>
+        </ul>
+      </form>
+</section>
+
+<footer>
+    <p>2024 Pony Poppers. All Rights Reserved.</p>
+    
+</footer>
+
+</body>
+</html>
